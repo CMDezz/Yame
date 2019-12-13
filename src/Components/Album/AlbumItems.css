@@ -1,0 +1,39 @@
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #347ab7;
+    margin-top: 40px;
+}
+
+.AlbumItems{
+    width: 49.5%;
+    margin-right: 1%;
+}
+.AlbumItems:nth-child(2){
+    margin-right: 0px;
+}
+.AlbumItems:nth-child(4){
+    margin-right: 0px;
+}
+/* .AlbumItem */
+
+
+.AlbumItems img{
+    width: 100%;
+}
+
+
+
+.sub-pic{
+    display: flex;
+}
+.sub-pic img{
+    width: 25%;
+    padding: 0;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+
+.sub-pic img:first-child{
+    padding-left: 0;
+}

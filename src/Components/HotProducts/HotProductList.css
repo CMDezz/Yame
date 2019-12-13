@@ -1,0 +1,22 @@
+.hotProductList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1%;
+}
+
+.titlee{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlee h1{
+    font-size: 25px;
+    font-weight: 400
+}
+
+.titlee p {
+    font-weight: 300
+}

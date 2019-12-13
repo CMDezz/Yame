@@ -1,0 +1,163 @@
+ul{
+    position: relative;
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    text-align: center;
+    justify-content:center;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom:0;
+}
+
+.tempp{
+    position: relative;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    height: 5px;
+    background-color: #545454;
+}
+
+ul li{
+    list-style: none;
+    height: 35px;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    height: 100%;
+    padding:0 8px 0 8px;
+}
+
+ul li a img {
+    width: 60px;
+    height: 12px;
+}
+
+.logo{
+        margin-left: -50px;
+}
+
+.more a:hover{
+    background-color: #d4d4d4;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.sear{
+    margin-right: 60px;
+}
+.cart a i{
+    color: red;
+}
+
+
+
+/* menu dropdown here */
+.more{
+    position: relative;
+}
+.dropDown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    left: 0%;
+    text-align: left;
+    display: none;
+    z-index: 1;
+    padding-top: 5px;
+    height: max-content;
+    width: max-content;
+}
+.dropDown li a {
+    width: 100%;
+    padding-left:20px;
+    height: 100%;
+}
+
+
+ /* CUSTOM HERE */
+/* 
+.aoThun-items{
+    padding-top: 5px;
+    height: max-content;
+    width: 260px;
+}
+.quanDai-items{
+    padding-top: 5px;
+    height: max-content;
+    width: max-content;
+}
+
+.sandal-items{
+    padding-top: 5px;
+    height: max-content;
+    width: max-content; 
+}*/
+
+
+
+   /* HOVER HERE */
+
+.aoThun:hover .aoThun-items{
+    display: block;
+    background-color: white;
+}
+.aoThun:hover .aoThun-items li a{
+    color:black;
+}
+
+
+.quanDai:hover .quanDai-items{
+    display: block;
+    background-color: white;
+}
+.quanDai:hover .quanDai-items li a{
+    color:black;
+}
+
+.sandal:hover .sandal-items{
+    display: block;
+    background-color: white;
+}
+.sandal:hover .sandal-items li a{
+    color:black;
+}
+
+.balo:hover .balo-items{
+    display: block;
+    background-color: white;
+}
+.balo:hover .balo-items li a{
+    color:black;
+}
+
+
+.phuKien:hover .phuKien-items{
+    display: block;
+    background-color: white;
+}
+.phuKien:hover .phuKien-items li a{
+    color:black;
+}
+
+
+
+
+
